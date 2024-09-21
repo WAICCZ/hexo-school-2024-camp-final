@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noel</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/serverlist.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- 貼到 <head> 內 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <!-- Modal 元素 -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="x"><p>x</p></div>
+      <div class="maintext">
+        <div class="main">
+          <h2>星際旅行訂票平台</h2>
+          <p>悠遊宇宙的夢想，從這裡開始實現</p>
+        </div>
+        <div class="text">
+          <div class="ltext">
+            <p>STAR TRAVEL 為 KK 公司宇宙旅行的購票網站</p>
+            <p>
+              主要從地球出發，目的地包含月球、火星、水星、木星；未來太空轉運站建
+            </p>
+            <p>置完畢，將再擴增目的地土星和金星。</p>
+          </div>
+          <div class="rtext">
+            <p>設計原則：宇宙旅行、深色背景、強烈視覺效果</p>
+            <p>開發方式：Bootstrap、Javascript、RWD</p>
+          </div>
+        </div>
+      </div>
+      <div class="bodytext">
+        <ul>
+          <li class="mainproject">
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/modal-image1.png?raw=true"
+              alt=""
+            />
+            <div class="projectcontent">
+              <h2>主視覺</h2>
+              <p>可直接設定日期、起迄星球、張數，快速查詢可購買的票券。</p>
+            </div>
+          </li>
+          <li class="mainproject">
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/modal-image2.png?raw=true"
+              alt=""
+            />
+            <div class="projectcontent">
+              <h2>推薦查詢</h2>
+              <p>給予最快起飛，以及最熱門的景點推薦，協助使用者進行選擇。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <body>
+    <header>
+      <div class="header">
+        <div class="firstblock">
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/logo.svg"
+              alt=""
+            />
+          </a>
+          <p class="drop-down">☰</p>
+        </div>
+
+        <nav class="header-nav">
+          <ul class="headermenu">
+            <li>
+              <a href="index.html">
+                <span class="corner top-left-corner"></span>
+                <span class="corner top-right-corner"></span>
+                <span class="corner bottom-right-corner"></span>
+                <span class="corner bottom-left-corner"></span> 首頁
+              </a>
+            </li>
+            <li>
+              <a href="collection.html"
+                ><span class="corner top-left-corner"></span>
+                <span class="corner top-right-corner"></span>
+                <span class="corner bottom-right-corner"></span>
+                <span class="corner bottom-left-corner"></span> 作品集</a
+              >
+            </li>
+            <li>
+              <a href="serverlist.html"
+                ><span class="corner top-left-corner"></span>
+                <span class="corner top-right-corner"></span>
+                <span class="corner bottom-right-corner"></span>
+                <span class="corner bottom-left-corner"></span> 服務項目</a
+              >
+            </li>
+            <li>
+              <a href="blog.html"
+                ><span class="corner top-left-corner"></span>
+                <span class="corner top-right-corner"></span>
+                <span class="corner bottom-right-corner"></span>
+                <span class="corner bottom-left-corner"></span> 部落格</a
+              >
+            </li>
+            <li>
+              <a href="contact.html"
+                ><span class="corner top-left-corner"></span>
+                <span class="corner top-right-corner"></span>
+                <span class="corner bottom-right-corner"></span>
+                <span class="corner bottom-left-corner"></span> 聯絡我</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="server">
+      <div class="serverlist">
+        <div class="projectIntroduce">
+          <p class="title">服務項目</p>
+        </div>
+        <ul class="serverlist-ul">
+          <li>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-front-end.svg"
+                alt=""
+              />
+              <p>平面設計</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-html%26css.svg"
+                alt=""
+              />
+              <p>UI設計</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-ui.svg"
+                alt=""
+              />
+              <p>切版服務</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-visual.svg"
+                alt=""
+              />
+              <p>前端開發</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="serviceprocess">
+      <div class="projectIntroduce">
+        <p class="title">服務流程</p>
+      </div>
+      <ul class="process">
+        <li>
+          <h2>1</h2>
+          <div class="process-content">
+            <h3>初步接洽</h3>
+            <p>透過表單或其他社群軟體與我聯絡</p>
+            <p>根據難易度與複雜度，後續可能需要電話/線上討論</p>
+          </div>
+        </li>
+        <p class="downvector">↓</p>
+        <li>
+          <h2>2</h2>
+          <div class="process-content">
+            <h3>需求釐清</h3>
+            <p>透過訪談與問卷，解析客戶需求，並針對痛點給予實際建議</p>
+          </div>
+        </li>
+        <p class="downvector">↓</p>
+        <li>
+          <h2>3</h2>
+          <div class="process-content">
+            <h3>委託簽約</h3>
+            <p>合約雙方用印後，即正式開始合作</p>
+            <p>可提供發票或勞務報酬單，須支付 20% 訂金</p>
+          </div>
+        </li>
+        <p class="downvector">↓</p>
+        <li>
+          <h2>4</h2>
+          <div class="process-content">
+            <h3>版本呈現</h3>
+            <p>根據合約內容進行設計或開發</p>
+          </div>
+        </li>
+        <p class="downvector">↓</p>
+        <li>
+          <h2>5</h2>
+          <div class="process-content">
+            <h3>來回修正</h3>
+            <p>依據合約規定之修正次數進行，次數計算以 mail 為準</p>
+          </div>
+        </li>
+        <p class="downvector">↓</p>
+        <li>
+          <h2>6</h2>
+          <div class="process-content">
+            <h3>終版確認</h3>
+            <p>雙方同意後即為最終版</p>
+          </div>
+        </li>
+        <p class="downvector">↓</p>
+        <li>
+          <h2>7</h2>
+          <div class="process-content">
+            <h3>結案</h3>
+            <p>客戶簽署驗收單，並於約定日期支付尾款</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="price-list">
+      <div class="projectIntroduce">
+        <p class="title">價格表</p>
+      </div>
+      <div class="price">
+        <div class="priceitems">
+          <div class="content1">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-visual.svg"
+              alt=""
+            />
+            <p>平面設計</p>
+          </div>
+          <div class="borup"></div>
+          <div class="content2">
+            <p>6000</p>
+            <div class="start"><p>起</p></div>
+          </div>
+        </div>
+        <div class="priceitems">
+          <div class="content1">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-ui.svg"
+              alt=""
+            />
+            <p>UI 設計</p>
+          </div>
+          <div class="borup"></div>
+          <div class="content2">
+            <p>15000</p>
+            <div class="start"><p>起</p></div>
+          </div>
+        </div>
+        <div class="priceitems">
+          <div class="content1">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/service-item-front-end.svg"
+              alt=""
+            />
+            <p>前端開發</p>
+          </div>
+          <div class="borup"></div>
+          <div class="content2">
+            <p>22,000</p>
+            <div class="start"><p>起</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="projectIntroduce">
+        <p class="title">客戶案例</p>
+      </div>
+      <ul class="collection">
+        <li class="items">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/work-image1.png?raw=true"
+            alt=""
+          />
+          <div class="collectiontext">
+            <div class="theme">
+              <h2>星際旅行訂票平台</h2>
+              <p>悠遊宇宙的夢想，從這裡開始實現</p>
+            </div>
+            <ul>
+              <li><p>網頁設計</p></li>
+              <li><p>響應式設計</p></li>
+              <li><p>Bootstrap</p></li>
+            </ul>
+          </div>
+        </li>
+        <li class="items">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/work-image2.png?raw=true"
+            alt=""
+          />
+          <div class="collectiontext">
+            <div class="theme">
+              <h2>理財App</h2>
+              <p>連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
+            </div>
+            <ul>
+              <li><p>APP設計</p></li>
+              <li><p>iOS</p></li>
+              <li><p>React</p></li>
+            </ul>
+          </div>
+        </li>
+        <li class="items">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/work-image3.png?raw=true"
+            alt=""
+          />
+          <div class="collectiontext">
+            <div class="theme">
+              <h2>醫美診所官網</h2>
+              <p>永保青春的秘密，從粹究開始</p>
+            </div>
+            <ul>
+              <li><p>網頁設計</p></li>
+              <li><p>響應式設計</p></li>
+              <li><p>ＷordPress</p></li>
+            </ul>
+          </div>
+        </li>
+        <li class="items">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/work-image4.png?raw=true"
+            alt=""
+          />
+          <div class="collectiontext">
+            <div class="theme">
+              <h2>美美美早餐店 POS 機 UI Design</h2>
+              <p>訂單送單一目瞭然，自動報表分析好輕鬆</p>
+            </div>
+            <ul>
+              <li><p>UI 設計</p></li>
+              <li><p>前端開發</p></li>
+              <li><p>Wix</p></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="FAQ">
+      <div class="projectIntroduce">
+        <p class="title">常見問題</p>
+      </div>
+      <div class="commonq">
+        <div class="q">
+          <h2>時程很趕的話可以加快作業嗎？</h2>
+          <div class="qcontent">
+            <p>每提早一天，只要支付總報價的 5%，我們即會視為急件為您趕工！</p>
+          </div>
+        </div>
+      <div class="q">
+        <h2>白天可以開會討論嗎？</h2>
+        <div class="qcontent">
+          <p>每週一三五的白天，可以約定開會時間！</p>
+        </div>
+      </div>
+      <div class="q">
+        <h2>有實際開發的網站可以參考嗎？</h2>
+        <div class="qcontent">
+          <p>請填寫表單或來信索取，部分合作有簽保密協定，無法於網路上公開喔。</p>
+        </div>
+      </div>
+      <div class="q">
+        <h2>提供比稿服務嗎？</h2>
+        <div class="qcontent">
+          <p>只要支付費用，設計提供比稿服務，但切版與前端開發恕不提供該服務內容。</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footertext">
+          <img
+            class="logo"
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/logo.svg"
+            alt=""
+          />
+          <div class="footercontent">
+            <p>若有數位產品設計和開發相關問題</p>
+            <p>歡迎填寫表單，或直接與我聯絡！</p>
+          </div>
+          <a class="indexmail" href="mailto:service@hexschool.com"
+            >service@hexschool.com</a
+          >
+        </div>
+        <div class="form">
+          <a href="#"
+            ><img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/list.svg"
+              alt=""
+            />
+            <p>填寫表單</p>
+          </a>
+          <a href="#"
+            ><img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/facebook.svg"
+              alt=""
+            />
+            <p>hexschool_demo</p>
+          </a>
+          <a href="#"
+            ><img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e33e944d6b136d33939dadf6358d65c76ec06e49/2024%20web-camp/instagram.svg"
+              alt=""
+            />
+            <p>hexschoolTW</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>

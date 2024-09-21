@@ -1,0 +1,388 @@
+
+.headermenu li:nth-child(2) .corner {
+    display: inline;
+}
+.abovearcticle{
+
+    height:460px;
+    width:100%;
+
+}
+
+.lquote{
+    position: absolute;
+    content: "";
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/quote-left.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:0px;
+    top:0px;
+    width:72px;
+    height:72px;
+}
+.rquote{
+    position: absolute;
+    content: "";
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/quote-right.png?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    right:0px;
+    bottom:0px;
+    width:72px;
+    height:72px;
+
+}
+*{          
+
+  }
+  .work-experience{
+    box-sizing:border-box;
+    margin:auto;
+    margin-top: 80px;
+    position: relative;
+    max-width:670px;
+    height:192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+
+  }
+  .work-experience p{
+    text-align: center;
+  }
+  .marked {
+    padding: 0 8px;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  }
+  .experience{
+    max-width:636px;
+    height:84px;
+    margin:auto;
+    margin-top: 24px;
+    margin-bottom:80px ;
+    display:flex;
+    gap:40px;
+}
+.b,.c{
+    width:298px;
+    height: 84px;
+
+}
+.b div,.c div{
+
+    height:36px;
+}
+.b div p,.c div p{
+    position: relative;
+    height:24px;
+}
+.b div p::after,.c div p::after{
+    position: absolute;
+    content: "";
+    width: 24px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom:2px solid #C1C1C1;
+
+}
+.b p,.c p{
+    line-height: 24px;
+    text-align: center;
+}   
+
+  .content{
+    height:2126px;
+    width:100%;
+
+  }
+  .collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top:120px;
+    margin: auto;
+    max-width: 1296px;
+    height:1774px;
+    column-gap: 24px;  /* 控制行之間的距離 */
+  }
+  *{
+
+  
+  }
+.items{
+    cursor:pointer;
+    height: 538px;
+    border-radius: 16px;
+}
+
+.collection li:hover{
+    border:1px solid gray;
+}
+  .collection li img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width:100%;  
+  }
+  .theme{
+    margin-left: 16px;
+    height:66px;
+  }
+  .theme h2{
+    width:100%;
+    font-size:28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .theme p{
+    color:#919191;
+
+  }
+  .collectiontext{
+    height:122px;
+    width:100%;
+  }
+  .collectiontext ul{
+    display:flex;
+    max-width:323px;
+    height:32px;
+    gap:16px;
+    margin-top: 24px;
+  }
+  .collectiontext ul li{
+
+    height: 32px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 16px ;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #e0e0e0;
+    
+  }
+  .collectiontext ul li p{
+  }
+  .pagetabAll{
+    margin:0 auto;
+    width:152px;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+}
+.pagetab:nth-child(1)
+{
+    background-color: black;
+    color:white;
+}
+    .pagetab{
+        width:40px;
+        height: 40px;
+        background-color:white;
+        color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pagetab p{
+        line-height: 36px;
+        font-size: 24px;
+    }
+
+.pagetabblock{
+    width: 100%;
+
+}
+*{
+}
+body{
+
+}
+.modal{
+    width:100%;
+    height:100%;
+    position:fixed;
+    justify-content: center;
+    top:0px;
+    left:0px;
+    overflow-y:auto;
+    z-index: 1000;
+    display: none;
+}
+.modal-content{    
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 1076px;
+    height: 1808px; /* 設置最大高度，當內容超出時出現滾動條 */
+    border-radius: 16px;
+    background-color: white;
+
+    
+
+
+}
+.bodytext{
+
+}
+.bodytext ul{
+    height:1546px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:56px;
+}
+.bodytext ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+    border-radius: 16px;
+    width:720px;
+}
+.bodytext ul li img{
+    width:100%;
+    border-radius: 16px;
+}
+.bodytext ul li h2{
+    width:100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.bodytext ul li p{
+    width:100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.projectcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    height:69px;
+}
+.projectcontent p{
+    color: #5B5B5B;
+
+}
+.projectcontent h2{
+    font-size:24px;
+
+}
+.x{
+    width:100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    padding-right:48px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+}
+.x p{
+    cursor:pointer;
+    padding:8px;
+    font-size: 24px;
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:258px;
+    gap:40px;
+}
+.text{
+  display: flex;
+  justify-content: center;  
+  gap:96px;
+}
+.rtext{
+    color:#5B5B5B;
+
+}
+.main{
+    width:100%;
+    text-align: center;
+}
+.main h2{
+    font-weight: 700;
+    font-size:28px;
+}
+.main p{
+    font-weight: 400;
+    font-size:16px;
+    color:#919191;
+
+}
+.text{
+    width:100%;
+}
+.Introduce{
+    width:100%;
+    height:16%;
+}
+.subject{
+    width:25%;
+    height:25%;
+    margin:auto;
+}
+.cross{
+    height:64px;
+}
+.subject h2{
+    font-size: 28px;
+}
+
+*{
+}
+@media(max-width: 1076px) {
+    .bodytext ul li{
+        width:90%;
+    }
+    .modal-content{
+        width:100%;
+        height:fit-content;
+        padding-bottom:40px ;    
+    }
+    .text{
+        flex-direction: column;
+        gap:10px;
+    }
+    .bodytext{    
+        
+    }
+    .bodytext{
+    }
+    
+}
+  @media(max-width:670px)
+  {
+    .work-experience{
+        height:250px;
+    }
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr ;
+        row-gap: 20px;  /* 控制行之間的距離 */
+    }
+    .content
+    {    
+        height:2576px;
+    }
+    .pagetabAll{
+        margin-top: 48px;
+    }
+  }

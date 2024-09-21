@@ -1,0 +1,269 @@
+*{
+}
+.headermenu li:nth-child(4) .corner {
+    display: inline;
+}
+.blog{
+    max-width: 1920px;
+    padding:120px 0px 120px 0px;
+    margin:0 auto;
+}
+.projectIntroduce {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.title {
+    max-width: 372px;
+    font-size: 32px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-sm.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 讓圖片覆蓋整個元素 */
+    background-position: center;
+    /* 圖片置中顯示 */
+    width: 25%;
+    height: 8px;
+    top: 50%;
+    right: 0;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-sm.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 8px;
+    top: 50%;
+    left: 0;
+}
+.content{
+    max-width: 1296px;
+    margin:0 auto;
+    display:flex;
+    gap:24px;
+    justify-content: space-between;
+    padding:20px;
+}
+.hide{
+    display:none;
+}
+.maincontent{    
+    width:80%;
+   
+}.Table{
+    width:100%;
+    padding:80px;
+}
+.Table li{
+    padding-bottom: 32px;
+    font-size:20px;
+    color:#5B5B5B;
+    cursor:pointer;
+
+}
+
+
+*{
+}
+.maincontent{
+    width:966px;
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 64px;
+}
+.items{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;   
+}
+.items img{
+    width:306px;
+    height:220px;
+    border-radius:8px;
+}
+.items .text{
+    width:644px;
+    height:184px;
+
+}
+.tags{
+    display:flex;
+    justify-content: flex-start;
+    gap:16px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
+    gap:16px;
+}
+.text h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+*{  
+
+}
+@media (max-width: 1296px){
+    .blog{
+        display: block;
+    }
+    .Table li:nth-child(1){
+        text-decoration: underline;
+    }
+
+    .Table li {
+        line-height: 30px;
+
+        padding: 0px;
+    }
+    
+.list {
+
+}
+
+.Table::-webkit-scrollbar {
+	display: none;
+}
+    .Table{
+        display: flex;
+        overflow-x: scroll;
+        white-space: nowrap;
+        margin:0 auto;
+        max-width:400px;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+    }
+    .Table li:nth-child(1)
+    {
+        margin-left:300px;
+    }
+    .Table li{
+    }
+    .maincontent{
+        row-gap: 164px;
+    }
+    .items img{
+        width:100%;
+        height:220px;
+        border-radius:8px;
+    }
+    .items .text{
+        width:100%;
+        height:184px;
+    
+    }
+    .blog{
+        
+        height:4320px;
+        padding:0px;
+        margin:0 auto;
+    }
+    .introduce{
+        
+        width:80%;
+    }
+    .tags{
+        justify-content: center;
+    }
+    .Table li{
+        text-align: center;
+    }
+    .maincontent{
+        width:100%;
+    }
+    .maincontent 
+    .items{
+        height:416px;
+        
+        flex-direction: column;
+    }
+    .items .text{
+        padding:40px 0px 40px 0px;
+        width:100%;
+        align-items: center;
+    }
+    .items img{
+        margin:
+    }
+    .content{
+        flex-direction: column;
+    }
+    .Table{
+        order: 1;
+    }
+    .maincontent{
+        order:2;
+    }
+    .text h2{
+        text-align: center;
+    }
+}
+@media (max-width:996px) {
+    .Table li:nth-child(1){
+        text-align: center;
+        margin-left: 280px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    
+    .projectIntroduce{
+        margin-top: 40px;
+   
+    }
+}
+@media(max-width:670px)
+{
+    .Table{
+        max-width:200px;
+      }
+      .Table li:nth-child(1){
+        text-align: center;
+        margin-left: 320px;
+    }
+    .items .text{
+        height:180px;
+    }
+    .introduce{
+
+        display: none;
+    }
+    .hide{
+        display: block;
+        width:80%;
+    }
+  .collection{
+      display: grid;
+      grid-template-columns: 1fr ;
+      row-gap: 20px;  /* 控制行之間的距離 */
+  }
+  .content
+  {    
+      height:2576px;
+  }
+
+}
+@media(max-width:500px)
+{
+    .Table{
+        max-width:100px;
+      }
+      .Table li:nth-child(1){
+        text-align: center;
+        margin-left: 430px;
+    }
+    }
