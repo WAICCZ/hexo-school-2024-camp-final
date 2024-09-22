@@ -120,9 +120,6 @@
     .blog{
         display: block;
     }
-    .Table li:nth-child(1){
-        text-decoration: underline;
-    }
 
     .Table li {
         line-height: 30px;
