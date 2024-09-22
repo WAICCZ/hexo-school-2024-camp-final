@@ -640,6 +640,8 @@ h2 {
         background-image: none;
         background-color: none;
         height: 1600px;
+        margin-top: 400px;
+        margin-bottom: 400px;
     }
     .background3 {
         flex-direction: column;
